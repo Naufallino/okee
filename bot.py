@@ -11,7 +11,7 @@ init(autoreset=True)
 
 banner = f"""{Fore.RED}==============================
 {Fore.GREEN}=    {Fore.YELLOW}Auto Reff Ecosapiens    {Fore.GREEN}=
-{Fore.BLUE}=    {Fore.MAGENTA}From ADFMIDN TEAM     {Fore.BLUE}=
+{Fore.BLUE}=    {Fore.MAGENTA}From Kepin     {Fore.BLUE}=
 {Fore.RED}==============================
 """
 print(banner)
@@ -77,8 +77,8 @@ def submit_referral(ref_code, jumlah):
 
 
         if i % 5 == 0:
-            print(f"{Fore.CYAN}[⏳] Sudah {i} referral, jeda 1 jam sebelum lanjut...")
-            time.sleep(3600)  
+            print(f"{Fore.CYAN}[⏳] Sudah {i} referral, jeda 30 menit sebelum lanjut...")
+            time.sleep(1800)  
 
 
 ref_code = input(f"{Fore.CYAN}Masukkan kode referral: {Style.RESET_ALL}")
