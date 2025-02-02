@@ -77,7 +77,7 @@ def submit_referral(ref_code, jumlah):
 
 
         if i % 5 == 0:
-            print(f"{Fore.CYAN}[⏳] Sudah {i} referral, jeda 30 menit sebelum lanjut...")
+            print(f"{Fore.CYAN}[⏳] Sudah {i} referral, jeda 1O menit sebelum lanjut...")
             time.sleep(600)  
 
 
